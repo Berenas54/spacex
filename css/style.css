@@ -17,7 +17,7 @@ body {
     padding: 0;
     display: flex;
     list-style: none;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 14px;
 }
 .item_link {
@@ -25,6 +25,12 @@ body {
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
+}
+nav:active, :focus {
+color: #b50032;
+}
+a:hover{
+    color: #b50032;
 }
 .main {
     text-align: center;
@@ -66,6 +72,9 @@ body {
 .header_left_nav .item_link {
 color: #808080;
 }
+.header_left_nav .item_link:hover {
+    color:#ea9292;
+}
 .featers {
     position: relative;
     max-width: 1230px;
@@ -92,6 +101,9 @@ color: #808080;
     font-weight: normal;
     font-size: 18px;
     line-height: 179.69%;
+}
+.two_table_column {
+    color: #868686;
 }
 .featers_text {
     max-width: 490px;
@@ -153,7 +165,9 @@ padding: 20px;
     .table_column {
         width: 250px;
     }
-
+    .list {
+        font-size: 14px;
+    }
 }
 @media (max-width: 768px) {
     .header {
@@ -171,6 +185,9 @@ padding: 20px;
     }
     .video {
         width: 100%;
+    }
+    .header_nav{
+        margin-bottom: 10px;
     }
 }
 @media (max-width: 576px) {
